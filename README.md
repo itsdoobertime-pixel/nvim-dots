@@ -1,7 +1,6 @@
 # yuri
 
 a neovim configuration built from scratch. no plugin managers, no preset distributions.  
-named after the character. backronym: **Yet Unother Refined Interface**.
 
 ```
  ██╗   ██╗██╗   ██╗██████╗ ██╗
