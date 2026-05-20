@@ -13,12 +13,6 @@ a neovim configuration built from scratch. no plugin managers, no preset distrib
 
 ---
 
-## what it is
-
-custom neovim setup written entirely in lua. every piece is written by hand — file explorer, lsp configuration, tab management, keybindings, dashboard. nothing is scaffolded from an existing config or starter template.
-
----
-
 ## structure
 
 ```
@@ -34,7 +28,6 @@ custom neovim setup written entirely in lua. every piece is written by hand — 
 
 ## dashboard
 
-opens automatically when neovim is launched with no arguments. displays the logo, subtitle, and three keybinds. buffer is non-modifiable, no line numbers, no sign column.
 
 | key | action |
 |-----|--------|
@@ -72,15 +65,6 @@ leader key: `space`
 | `<leader>1–5` | jump to tab by index |
 | `<leader>tmp` | move tab right |
 | `<leader>tmn` | move tab left |
-
-### splits
-
-| keymap | action |
-|--------|--------|
-| `<C-h>` | focus left split |
-| `<C-l>` | focus right split |
-| `<C-k>` | focus upper split |
-| `<C-j>` | focus lower split |
 
 ### editing
 
@@ -133,3 +117,4 @@ git clone https://github.com/youruser/yuri ~/.config/nvim
 ```
 
 launch neovim.
+!! this project is very new, and there are a lot of bugs yet to be fixed. !!
